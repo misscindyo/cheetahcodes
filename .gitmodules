@@ -1,0 +1,3 @@
+[submodule "javascript-projects"]
+	path = javascript-projects
+	url = https://github.com/N-adu/javascript-projects.git
