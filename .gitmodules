@@ -1,3 +1,6 @@
 [submodule "javascript-projects"]
 	path = javascript-projects
 	url = https://github.com/N-adu/javascript-projects.git
+[submodule "group4"]
+	path = group4
+	url = https://github.com/misscindyo/group4.git
