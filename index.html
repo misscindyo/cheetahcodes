@@ -1,0 +1,227 @@
+<!-- Ref. navbar (project 4)	
+I will need:
+
+01.header
+
+02.section / container 1 - intro - two columns
+
+03.section / container 2 - about - two columns
+
+04.section / container 3 - portfolio - one column
+
+05.section / container 4 - contact - one column
+
+06.footer -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CND Porfolio</title>
+   <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+  	<!-- header -->
+  	<header id="home">
+	  	<nav id="nav">
+	  		<div class="nav-container">
+	  			<!-- nav-header -->
+		  		<div class="nav-header">
+		  			<img src="./Logo-JS.png" class="logo" alt="logo" />
+		  			<button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+		  		</div>
+			  	<!-- header - navbar links -->
+		  		<div class="links-container">
+						<ul class="nav-links">
+							<li>
+								<a href="#home" class="scroll-link">home</a>
+							</li>
+							<li>
+								<a href="#about" class="scroll-link">about</a>
+							</li>
+							<li>
+								<a href="#portfolio" class="scroll-link">portfolio</a>
+							</li>
+							<li>
+								<a href="#contact" class="scroll-link">contact</a>
+							</li>
+						</ul>
+		  		</div>
+	  		</div>
+	  	</nav>
+	  	<!-- header - banner -->
+  		<div class="banner">
+  			<div class="container">
+  				<p>Hello! I am a London (UK) based freelance front-end web developer</p>
+  				<a href="#about" class="scroll-link btn btn-white">more
+          </a>
+  			</div>
+  		</div>
+  	</header>
+  	<!-- about -->
+  	<section id="about" class="section">
+  		<div class="title">
+	  		<h2>about</h2>
+
+	  	</div>
+	 
+
+
+  	</section>
+  	<!-- portfolio w/FILTER -->
+  	<section id="portfolio" class="section">
+		<div class="title">
+			<h2>portfolio</h2>
+		</div>
+		<!-- QUESTION: Ask about switching between multiple repos and having local folders in same directory fo different repositories -->
+		<div class="projects">
+			<h3>Projects</h3>
+			<ul>
+				<li><a href="https://github.com/misscindyo/group4/tree/master/Group%204%20-%20covid19%20app">COVID-19 App</a></li>
+				<li><a href="https://github.com/misscindyo/portfolio/tree/main/portfolio/portfolio">Javascript</a></li>
+			</ul>
+		</div>
+		<div class="projects">
+			<h3>Websites</h3>
+	  	<!-- filter buttons -->
+		<div class="btn-container">
+			<!-- <button type="button" class="filter-btn" data-id="all">all</button>
+			<button type="button" class="filter-btn" data-id="breakfast">
+			breakfast
+			</button>
+			<button type="button" class="filter-btn" data-id="lunch">lunch</button>
+			<button type="button" class="filter-btn" data-id="shakes">
+			shakes
+			</button> -->
+		</div>
+		<div class="portfolio-grid">
+			<!-- single item -->
+			<!-- <article class="portfolio-item">
+				<img src="./Logo-JS.png" alt="portfolio item" class="photo" />
+				<div class="item-info">
+				<header> 
+					<h4>
+						<a href="#" class="modal-link">buttermilk pancakes</a>
+					</h4>
+				</header>
+				<p class="item-text">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore
+					laboriosam excepturi! Quo, officia.
+				</p>
+				</div>
+			</article> -->
+			<!-- end of single item -->
+			<!-- single item -->
+			<!-- <article class="portfolio-item">
+				<img src="./Logo-JS.png" alt="portfolio item" class="photo" />
+				<div class="item-info">
+				<header>
+					<h4>buttermilk pancakes</h4>
+				</header>
+				<p class="item-text">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore
+					laboriosam excepturi! Quo, officia.
+				</p>
+				</div>
+			</article> -->
+			<!-- end of single item -->
+			<!-- single item -->
+			<!-- <article class="portfolio-item">
+				<img src="./Logo-JS.png" alt="portfolio item" class="photo" />
+				<div class="item-info">
+				<header>
+					<h4>buttermilk pancakes</h4>
+				</header>
+				<p class="item-text">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore
+					laboriosam excepturi! Quo, officia.
+				</p>
+				</div>
+			</article> -->
+			<!-- end of single item -->
+
+			</div>
+		</div>
+
+  	</section>
+  	<!-- contact -->
+  	<section id="contact" class="section">
+  		<div class="title">
+	  		<h2>contact</h2>
+  			
+	  	</div>
+	  	<div class="btn-container"></div>
+  		<div class="portfolio-grid">
+  		<article class="portfolio-item">
+  			<div class="item-info">
+  			<h4>title</h4>
+  			<button class="btn modal-link">
+          open modal
+        </button>
+        <p class="item-text">
+	            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+	            Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore
+	            laboriosam excepturi! Quo, officia.
+	          </p>
+      </div>
+      </article>
+      <!-- <article class="portfolio-item">
+      <div class="item-info">
+        <button class="btn modal-link">
+          open modal
+        </button>
+        <p class="item-text">
+	            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+	            Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore
+	            laboriosam excepturi! Quo, officia.
+	          </p>
+      </div>
+        </article>
+        <article class="portfolio-item">
+        <div class="item-info">
+        <button class="btn modal-link">
+          open modal
+        </button>
+        <p class="item-text">
+	            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+	            Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore
+	            laboriosam excepturi! Quo, officia.
+	          </p>
+      </div>
+      </article>
+      
+  		</div> -->
+	      <div class="modal-overlay">
+		      <div class="modal-container">
+		        <h3>modal content</h3>
+		        <button class="close-btn"><i class="fas fa-times"></i></button>
+		      </div>
+		    </div>
+  	</section>
+	        
+  	<!-- footer -->
+  	<footer class="section">
+      <p>
+        copyright &copy; CND Web Development
+        <span id="date"></span>. all rights reserved
+      </p>
+  	</footer>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
