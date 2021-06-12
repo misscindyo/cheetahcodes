@@ -308,7 +308,7 @@ nav {
 
 /* banner */
 
-header#home {
+/* header#home {
   min-height: 100vh;
   background: url(./Cover-JS.jpg) center/cover no-repeat;
 }
@@ -328,9 +328,27 @@ header#home {
 .banner .container p {
   margin: 0.75rem;
   color: var(--clr-white);
-}
+} */
 
 /* sections */
+section {
+  min-height: fit-content;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-item img {
+  position: absolute;
+  min-height: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  margin: 0 auto;
+}
+
 .title h2 {
   text-transform: uppercase;
   color: #f2784b;
@@ -340,6 +358,38 @@ header#home {
 #portfolio,
 #contact {
   padding: 1rem 0;
+}
+
+.progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+  margin: 1% 0;
+  width: 50%;
+}
+
+.skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+}
+
+.val {
+  float: right;
+}
+
+.progress-bar-container {
+  /* display: block; */
+  background: var(--clr-secondary);
+  width: 100%;
+}
+
+.progress-bar {
+  display: list-item;
+  background-color: var(--clr-primary-1);
 }
 
 .btn-container {
